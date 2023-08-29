@@ -45,7 +45,7 @@ export default {
       {name : "HOME" , link : "#"},
       {name : "Services", link: "#"},
       {name : "About", link: "#"},
-      {name : "Blog", link: "#"},
+      {name : "Blog", link: "/blog"},
       {name : "Contact", link : "#"},
     ]
 
