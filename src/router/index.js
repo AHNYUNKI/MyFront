@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router';
 import PostDetail from "@/views/PostDetail.vue";
 import PageHome from "@/views/PageHome.vue";
 import PageWrite from "@/views/PageWrite.vue";
+import PageUpdate from "@/views/PageUpdate.vue";
 
 const routes = [
     {
@@ -19,7 +20,12 @@ const routes = [
         path: '/write',
         name: 'PageWrite',
         component: PageWrite
-    }
+    },
+    {
+        path: '/update/:id',
+        name: 'PageUpdate',
+        component: PageUpdate
+    },
 ];
 const router = createRouter({
     history: createWebHistory('/'),
